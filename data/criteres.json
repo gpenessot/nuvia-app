@@ -1,0 +1,47 @@
+{
+  "reference": "Arrêté du 15 mai 2006 modifié par l'arrêté du 28 janvier 2020",
+  "avertissement": "Seuils à valider contre le référentiel NUVIA avant la formation.",
+  "unite": "µSv/h",
+  "zonage": [
+    {
+      "zone": "Non réglementée",
+      "min": 0.0,
+      "max": 0.5,
+      "couleur": "#8FBF6F"
+    },
+    {
+      "zone": "Surveillée (bleue)",
+      "min": 0.5,
+      "max": 7.5,
+      "couleur": "#4A90D9"
+    },
+    {
+      "zone": "Contrôlée verte",
+      "min": 7.5,
+      "max": 25.0,
+      "couleur": "#2E9E5B"
+    },
+    {
+      "zone": "Contrôlée jaune",
+      "min": 25.0,
+      "max": 2000.0,
+      "couleur": "#E8C51E"
+    },
+    {
+      "zone": "Contrôlée orange",
+      "min": 2000.0,
+      "max": 100000.0,
+      "couleur": "#E8811E"
+    },
+    {
+      "zone": "Interdite (rouge)",
+      "min": 100000.0,
+      "max": null,
+      "couleur": "#D0342C"
+    }
+  ],
+  "note_zone_non_reglementee": "0,080 mSv/mois ramené à 0,5 µSv/h sur une base de 160 h par mois.",
+  "contrainte_chantier_mSv": 0.3,
+  "limite_reglementaire_annuelle_mSv": 20.0,
+  "erreur_relative_max_acceptee": 0.1
+}

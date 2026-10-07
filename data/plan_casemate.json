@@ -1,0 +1,461 @@
+{
+  "unite": "cm",
+  "locaux": [
+    {
+      "id": "C2",
+      "libelle": "Casemate C2",
+      "emprise": [
+        0.0,
+        0.0,
+        1200.0,
+        800.0
+      ]
+    },
+    {
+      "id": "SAS",
+      "libelle": "Sas d'accès",
+      "emprise": [
+        1200.0,
+        200.0,
+        1600.0,
+        600.0
+      ]
+    }
+  ],
+  "murs": [
+    {
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          1200,
+          0
+        ],
+        [
+          1200,
+          800
+        ],
+        [
+          0,
+          800
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "epaisseur_cm": 60,
+      "materiau": "beton"
+    },
+    {
+      "points": [
+        [
+          1200,
+          200
+        ],
+        [
+          1600,
+          200
+        ],
+        [
+          1600,
+          600
+        ],
+        [
+          1200,
+          600
+        ],
+        [
+          1200,
+          200
+        ]
+      ],
+      "epaisseur_cm": 40.0,
+      "materiau": "beton"
+    }
+  ],
+  "ouvertures": [
+    {
+      "libelle": "Porte sas",
+      "points": [
+        [
+          1200,
+          350
+        ],
+        [
+          1200,
+          450
+        ]
+      ]
+    }
+  ],
+  "equipements": [
+    {
+      "id": "V1",
+      "libelle": "Cuve de procédé V1",
+      "forme": "cercle",
+      "x": 300.0,
+      "y": 600.0,
+      "r": 120.0
+    },
+    {
+      "id": "T1",
+      "libelle": "Tuyauterie T1",
+      "forme": "ligne",
+      "points": [
+        [
+          150.0,
+          200.0
+        ],
+        [
+          700.0,
+          200.0
+        ],
+        [
+          700.0,
+          450.0
+        ]
+      ]
+    },
+    {
+      "id": "BAG",
+      "libelle": "Boîte à gants",
+      "forme": "rectangle",
+      "x": 820.0,
+      "y": 520.0,
+      "l": 260.0,
+      "h": 160.0
+    },
+    {
+      "id": "PU",
+      "libelle": "Puisard",
+      "forme": "cercle",
+      "x": 1000.0,
+      "y": 700.0,
+      "r": 60.0
+    },
+    {
+      "id": "FV",
+      "libelle": "Filtre ventilation",
+      "forme": "rectangle",
+      "x": 1380.0,
+      "y": 340.0,
+      "l": 140.0,
+      "h": 120.0
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "libelle": "Fond de cuve V1",
+      "isotope": "Co-60",
+      "x": 300.0,
+      "y": 600.0,
+      "z": 80.0,
+      "phases": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "S2",
+      "libelle": "Coude tuyauterie T1",
+      "isotope": "Cs-137",
+      "x": 700.0,
+      "y": 200.0,
+      "z": 120.0,
+      "phases": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "S3",
+      "libelle": "Puisard",
+      "isotope": "Co-60",
+      "x": 1000.0,
+      "y": 700.0,
+      "z": 30.0,
+      "phases": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "S4",
+      "libelle": "Filtre ventilation",
+      "isotope": "Eu-152",
+      "x": 1450.0,
+      "y": 400.0,
+      "z": 150.0,
+      "phases": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "points_mesure": [
+    {
+      "point": "P01",
+      "x_cm": 150.0,
+      "y_cm": 150.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P02",
+      "x_cm": 350.0,
+      "y_cm": 150.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P03",
+      "x_cm": 550.0,
+      "y_cm": 150.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P04",
+      "x_cm": 750.0,
+      "y_cm": 150.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P05",
+      "x_cm": 950.0,
+      "y_cm": 150.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P06",
+      "x_cm": 1150.0,
+      "y_cm": 150.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P07",
+      "x_cm": 150.0,
+      "y_cm": 350.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P08",
+      "x_cm": 350.0,
+      "y_cm": 350.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P09",
+      "x_cm": 550.0,
+      "y_cm": 350.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P10",
+      "x_cm": 750.0,
+      "y_cm": 350.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P11",
+      "x_cm": 950.0,
+      "y_cm": 350.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P12",
+      "x_cm": 1150.0,
+      "y_cm": 350.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P13",
+      "x_cm": 150.0,
+      "y_cm": 550.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P14",
+      "x_cm": 350.0,
+      "y_cm": 550.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P15",
+      "x_cm": 550.0,
+      "y_cm": 550.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P16",
+      "x_cm": 750.0,
+      "y_cm": 550.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P17",
+      "x_cm": 950.0,
+      "y_cm": 550.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P18",
+      "x_cm": 1150.0,
+      "y_cm": 550.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P19",
+      "x_cm": 150.0,
+      "y_cm": 750.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P20",
+      "x_cm": 350.0,
+      "y_cm": 750.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P21",
+      "x_cm": 550.0,
+      "y_cm": 750.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P22",
+      "x_cm": 750.0,
+      "y_cm": 750.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P23",
+      "x_cm": 950.0,
+      "y_cm": 750.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P24",
+      "x_cm": 1150.0,
+      "y_cm": 750.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P25",
+      "x_cm": 1280.0,
+      "y_cm": 300.0,
+      "z_cm": 100.0,
+      "local": "Sas d'accès",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P26",
+      "x_cm": 1280.0,
+      "y_cm": 500.0,
+      "z_cm": 100.0,
+      "local": "Sas d'accès",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P27",
+      "x_cm": 1480.0,
+      "y_cm": 300.0,
+      "z_cm": 100.0,
+      "local": "Sas d'accès",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P28",
+      "x_cm": 1480.0,
+      "y_cm": 500.0,
+      "z_cm": 100.0,
+      "local": "Sas d'accès",
+      "description": "Maillage systématique"
+    },
+    {
+      "point": "P29",
+      "x_cm": 450.0,
+      "y_cm": 600.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Poste découpe cuve V1"
+    },
+    {
+      "point": "P30",
+      "x_cm": 700.0,
+      "y_cm": 330.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Poste dépose tuyauterie T1"
+    },
+    {
+      "point": "P31",
+      "x_cm": 950.0,
+      "y_cm": 600.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Poste boîte à gants"
+    },
+    {
+      "point": "P32",
+      "x_cm": 1000.0,
+      "y_cm": 600.0,
+      "z_cm": 100.0,
+      "local": "Casemate C2",
+      "description": "Poste reprise puisard"
+    }
+  ]
+}

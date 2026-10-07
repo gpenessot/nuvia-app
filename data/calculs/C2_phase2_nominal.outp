@@ -1,0 +1,1337 @@
+          Code Name & Version = MCNP6, 6.2
+
+  _/      _/    _/_/_/    _/      _/   _/_/_/       _/_/_/
+ _/_/  _/_/   _/            _/_/  _/   _/    _/   _/
+_/  _/  _/   _/            _/  _/_/   _/_/_/    _/_/_/
+_/      _/   _/    _/     _/    _/   _/        _/
+_/      _/     _/_/_/    _/      _/  _/        _/_/_/_/
+
+  +---------------------------------------------------------------------+
+  | Copyright 2008. Los Alamos National Security, LLC.  All rights       |
+  | reserved. Simulation of a demolition site - FICTIF, usage formation. |
+  +---------------------------------------------------------------------+
+
+  +                                   09/27/25 00:00:00
+       1-       C2 - cartographie casemate C2 - phase 2 - hypothese nominal
+       2-       c  --- geometrie casemate C2 ---
+       3-       c  cellules 10 a 48, surfaces 1 a 62
+       4-       c  DF1 : coefficients de conversion fluence-debit de dose ICRP 74
+
+ comment.  photon   importances have not been set in the problem.
+
+1tally        5        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  1.50000E+02  1.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   4.60903E-03 0.9900
+    5.0000E-02   1.38271E-02 0.9900
+    1.0000E-01   2.76542E-02 0.5748
+    3.0000E-01   5.53084E-02 0.3074
+    6.0000E-01   1.01399E-01 0.1859
+    1.0000E+00   1.29053E-01 0.1547
+    1.3300E+00   9.21806E-02 0.2005
+    2.0000E+00   3.68722E-02 0.4411
+      total      4.60903E-01 0.1146
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 5 with nps = 20000000
+
+ normed average tally per history  = 4.60903E-01          unnormed average tally per history  = 4.60903E-01
+ estimated tally relative error    = 0.1146               estimated variance of the variance  = 0.0394
+ relative error from zero tallies  = 0.0630               relative error from nonzero scores  = 0.0962
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 5
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.1146      yes       yes           0.0394      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 2.285E+02
+
+1tally       15        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  3.50000E+02  1.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   6.68106E-03 0.9900
+    5.0000E-02   2.00432E-02 0.9215
+    1.0000E-01   4.00863E-02 0.4774
+    3.0000E-01   8.01727E-02 0.2553
+    6.0000E-01   1.46983E-01 0.1544
+    1.0000E+00   1.87070E-01 0.1285
+    1.3300E+00   1.33621E-01 0.1665
+    2.0000E+00   5.34484E-02 0.3664
+      total      6.68106E-01 0.0952
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 15 with nps = 20000000
+
+ normed average tally per history  = 6.68106E-01          unnormed average tally per history  = 6.68106E-01
+ estimated tally relative error    = 0.0952               estimated variance of the variance  = 0.0272
+ relative error from zero tallies  = 0.0523               relative error from nonzero scores  = 0.0799
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 15
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0952      yes       yes           0.0272      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 3.313E+02
+
+1tally       25        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  5.50000E+02  1.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   1.64051E-02 0.9900
+    5.0000E-02   4.92154E-02 0.5880
+    1.0000E-01   9.84308E-02 0.3047
+    3.0000E-01   1.96862E-01 0.1630
+    6.0000E-01   3.60913E-01 0.0985
+    1.0000E+00   4.59344E-01 0.0820
+    1.3300E+00   3.28103E-01 0.1063
+    2.0000E+00   1.31241E-01 0.2338
+      total      1.64051E+00 0.0607
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 25 with nps = 20000000
+
+ normed average tally per history  = 1.64051E+00          unnormed average tally per history  = 1.64051E+00
+ estimated tally relative error    = 0.0607               estimated variance of the variance  = 0.0111
+ relative error from zero tallies  = 0.0334               relative error from nonzero scores  = 0.0510
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 25
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0607      yes       yes           0.0111      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 8.135E+02
+
+1tally       35        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  7.50000E+02  1.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   5.92065E-02 0.9062
+    5.0000E-02   1.77619E-01 0.3095
+    1.0000E-01   3.55239E-01 0.1604
+    3.0000E-01   7.10478E-01 0.0858
+    6.0000E-01   1.30254E+00 0.0519
+    1.0000E+00   1.65778E+00 0.0432
+    1.3300E+00   1.18413E+00 0.0559
+    2.0000E+00   4.73652E-01 0.1231
+      total      5.92065E+00 0.0320
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 35 with nps = 20000000
+
+ normed average tally per history  = 5.92065E+00          unnormed average tally per history  = 5.92065E+00
+ estimated tally relative error    = 0.0320               estimated variance of the variance  = 0.0031
+ relative error from zero tallies  = 0.0176               relative error from nonzero scores  = 0.0269
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 35
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0320      yes       yes           0.0031      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 2.936E+03
+
+1tally       45        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  9.50000E+02  1.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   1.10281E-02 0.9900
+    5.0000E-02   3.30842E-02 0.7172
+    1.0000E-01   6.61684E-02 0.3716
+    3.0000E-01   1.32337E-01 0.1987
+    6.0000E-01   2.42617E-01 0.1202
+    1.0000E+00   3.08786E-01 0.1000
+    1.3300E+00   2.20561E-01 0.1296
+    2.0000E+00   8.82245E-02 0.2852
+      total      1.10281E+00 0.0741
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 45 with nps = 20000000
+
+ normed average tally per history  = 1.10281E+00          unnormed average tally per history  = 1.10281E+00
+ estimated tally relative error    = 0.0741               estimated variance of the variance  = 0.0165
+ relative error from zero tallies  = 0.0407               relative error from nonzero scores  = 0.0622
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 45
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0741      yes       yes           0.0165      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 5.468E+02
+
+1tally       55        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  1.15000E+03  1.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   7.61543E-03 0.9900
+    5.0000E-02   2.28463E-02 0.8631
+    1.0000E-01   4.56926E-02 0.4471
+    3.0000E-01   9.13852E-02 0.2392
+    6.0000E-01   1.67540E-01 0.1446
+    1.0000E+00   2.13232E-01 0.1203
+    1.3300E+00   1.52309E-01 0.1560
+    2.0000E+00   6.09235E-02 0.3432
+      total      7.61543E-01 0.0891
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 55 with nps = 20000000
+
+ normed average tally per history  = 7.61543E-01          unnormed average tally per history  = 7.61543E-01
+ estimated tally relative error    = 0.0891               estimated variance of the variance  = 0.0238
+ relative error from zero tallies  = 0.0490               relative error from nonzero scores  = 0.0749
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 55
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0891      yes       yes           0.0238      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 3.776E+02
+
+1tally       65        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  1.50000E+02  3.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   6.40771E-03 0.9900
+    5.0000E-02   1.92231E-02 0.9409
+    1.0000E-01   3.84463E-02 0.4875
+    3.0000E-01   7.68926E-02 0.2607
+    6.0000E-01   1.40970E-01 0.1577
+    1.0000E+00   1.79416E-01 0.1312
+    1.3300E+00   1.28154E-01 0.1700
+    2.0000E+00   5.12617E-02 0.3741
+      total      6.40771E-01 0.0972
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 65 with nps = 20000000
+
+ normed average tally per history  = 6.40771E-01          unnormed average tally per history  = 6.40771E-01
+ estimated tally relative error    = 0.0972               estimated variance of the variance  = 0.0283
+ relative error from zero tallies  = 0.0534               relative error from nonzero scores  = 0.0816
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 65
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0972      yes       yes           0.0283      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 3.177E+02
+
+1tally       75        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  3.50000E+02  3.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   9.26906E-03 0.9900
+    5.0000E-02   2.78072E-02 0.7823
+    1.0000E-01   5.56143E-02 0.4053
+    3.0000E-01   1.11229E-01 0.2168
+    6.0000E-01   2.03919E-01 0.1311
+    1.0000E+00   2.59534E-01 0.1091
+    1.3300E+00   1.85381E-01 0.1414
+    2.0000E+00   7.41525E-02 0.3110
+      total      9.26906E-01 0.0808
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 75 with nps = 20000000
+
+ normed average tally per history  = 9.26906E-01          unnormed average tally per history  = 9.26906E-01
+ estimated tally relative error    = 0.0808               estimated variance of the variance  = 0.0196
+ relative error from zero tallies  = 0.0444               relative error from nonzero scores  = 0.0679
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 75
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0808      yes       yes           0.0196      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 4.596E+02
+
+1tally       85        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  5.50000E+02  3.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   1.39972E-02 0.9900
+    5.0000E-02   4.19915E-02 0.6366
+    1.0000E-01   8.39830E-02 0.3298
+    3.0000E-01   1.67966E-01 0.1764
+    6.0000E-01   3.07938E-01 0.1067
+    1.0000E+00   3.91920E-01 0.0888
+    1.3300E+00   2.79943E-01 0.1151
+    2.0000E+00   1.11977E-01 0.2531
+      total      1.39972E+00 0.0657
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 85 with nps = 20000000
+
+ normed average tally per history  = 1.39972E+00          unnormed average tally per history  = 1.39972E+00
+ estimated tally relative error    = 0.0657               estimated variance of the variance  = 0.0130
+ relative error from zero tallies  = 0.0362               relative error from nonzero scores  = 0.0552
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 85
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0657      yes       yes           0.0130      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 6.941E+02
+
+1tally       95        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  7.50000E+02  3.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   2.16251E-02 0.9900
+    5.0000E-02   6.48754E-02 0.9900
+    1.0000E-01   1.29751E-01 0.9900
+    3.0000E-01   2.59502E-01 0.6387
+    6.0000E-01   4.75753E-01 0.3862
+    1.0000E+00   6.05504E-01 0.3213
+    1.3300E+00   4.32503E-01 0.4165
+    2.0000E+00   1.73001E-01 0.9164
+      total      2.16251E+00 0.2380
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 95 with nps = 20000000
+
+ normed average tally per history  = 2.16251E+00          unnormed average tally per history  = 2.16251E+00
+ estimated tally relative error    = 0.2380               estimated variance of the variance  = 0.1700
+ relative error from zero tallies  = 0.1309               relative error from nonzero scores  = 0.1999
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 95
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.2380      yes       yes           0.1700      yes         yes             constant    random      10.00
+ passed?        yes        no        yes      no               yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally does not pass 3 of the 10 statistical checks.
+
+ figure of merit = 5.295E+01
+
+1tally      105        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  9.50000E+02  3.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   1.71588E-02 0.9900
+    5.0000E-02   5.14764E-02 0.5750
+    1.0000E-01   1.02953E-01 0.2979
+    3.0000E-01   2.05906E-01 0.1593
+    6.0000E-01   3.77494E-01 0.0964
+    1.0000E+00   4.80446E-01 0.0802
+    1.3300E+00   3.43176E-01 0.1039
+    2.0000E+00   1.37270E-01 0.2286
+      total      1.71588E+00 0.0594
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 105 with nps = 20000000
+
+ normed average tally per history  = 1.71588E+00          unnormed average tally per history  = 1.71588E+00
+ estimated tally relative error    = 0.0594               estimated variance of the variance  = 0.0106
+ relative error from zero tallies  = 0.0327               relative error from nonzero scores  = 0.0499
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 105
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0594      yes       yes           0.0106      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 8.508E+02
+
+1tally      115        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  1.15000E+03  3.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   1.32817E-02 0.9900
+    5.0000E-02   3.98450E-02 0.6535
+    1.0000E-01   7.96901E-02 0.3386
+    3.0000E-01   1.59380E-01 0.1811
+    6.0000E-01   2.92197E-01 0.1095
+    1.0000E+00   3.71887E-01 0.0911
+    1.3300E+00   2.65634E-01 0.1181
+    2.0000E+00   1.06253E-01 0.2598
+      total      1.32817E+00 0.0675
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 115 with nps = 20000000
+
+ normed average tally per history  = 1.32817E+00          unnormed average tally per history  = 1.32817E+00
+ estimated tally relative error    = 0.0675               estimated variance of the variance  = 0.0137
+ relative error from zero tallies  = 0.0371               relative error from nonzero scores  = 0.0567
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 115
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0675      yes       yes           0.0137      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 6.586E+02
+
+1tally      125        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  1.50000E+02  5.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   1.22732E-02 0.9900
+    5.0000E-02   3.68197E-02 0.6799
+    1.0000E-01   7.36394E-02 0.3522
+    3.0000E-01   1.47279E-01 0.1884
+    6.0000E-01   2.70011E-01 0.1139
+    1.0000E+00   3.43651E-01 0.0948
+    1.3300E+00   2.45465E-01 0.1229
+    2.0000E+00   9.81859E-02 0.2703
+      total      1.22732E+00 0.0702
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 125 with nps = 20000000
+
+ normed average tally per history  = 1.22732E+00          unnormed average tally per history  = 1.22732E+00
+ estimated tally relative error    = 0.0702               estimated variance of the variance  = 0.0148
+ relative error from zero tallies  = 0.0386               relative error from nonzero scores  = 0.0590
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 125
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0702      yes       yes           0.0148      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 6.086E+02
+
+1tally      135        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  3.50000E+02  5.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   4.48819E-02 0.9900
+    5.0000E-02   1.34646E-01 0.3555
+    1.0000E-01   2.69292E-01 0.1842
+    3.0000E-01   5.38583E-01 0.0985
+    6.0000E-01   9.87402E-01 0.0596
+    1.0000E+00   1.25669E+00 0.0496
+    1.3300E+00   8.97639E-01 0.0643
+    2.0000E+00   3.59055E-01 0.1414
+      total      4.48819E+00 0.0367
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 135 with nps = 20000000
+
+ normed average tally per history  = 4.48819E+00          unnormed average tally per history  = 4.48819E+00
+ estimated tally relative error    = 0.0367               estimated variance of the variance  = 0.0040
+ relative error from zero tallies  = 0.0202               relative error from nonzero scores  = 0.0308
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 135
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0367      yes       yes           0.0040      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 2.226E+03
+
+1tally      145        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  5.50000E+02  5.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   1.32672E-02 0.9900
+    5.0000E-02   3.98015E-02 0.6539
+    1.0000E-01   7.96029E-02 0.3388
+    3.0000E-01   1.59206E-01 0.1812
+    6.0000E-01   2.91877E-01 0.1096
+    1.0000E+00   3.71480E-01 0.0912
+    1.3300E+00   2.65343E-01 0.1182
+    2.0000E+00   1.06137E-01 0.2600
+      total      1.32672E+00 0.0675
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 145 with nps = 20000000
+
+ normed average tally per history  = 1.32672E+00          unnormed average tally per history  = 1.32672E+00
+ estimated tally relative error    = 0.0675               estimated variance of the variance  = 0.0137
+ relative error from zero tallies  = 0.0371               relative error from nonzero scores  = 0.0567
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 145
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0675      yes       yes           0.0137      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 6.579E+02
+
+1tally      155        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  7.50000E+02  5.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   2.20868E-02 0.9900
+    5.0000E-02   6.62603E-02 0.5068
+    1.0000E-01   1.32521E-01 0.2626
+    3.0000E-01   2.65041E-01 0.1404
+    6.0000E-01   4.85909E-01 0.0849
+    1.0000E+00   6.18429E-01 0.0707
+    1.3300E+00   4.41735E-01 0.0916
+    2.0000E+00   1.76694E-01 0.2015
+      total      2.20868E+00 0.0523
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 155 with nps = 20000000
+
+ normed average tally per history  = 2.20868E+00          unnormed average tally per history  = 2.20868E+00
+ estimated tally relative error    = 0.0523               estimated variance of the variance  = 0.0082
+ relative error from zero tallies  = 0.0288               relative error from nonzero scores  = 0.0440
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 155
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0523      yes       yes           0.0082      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 1.095E+03
+
+1tally      165        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  9.50000E+02  5.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   5.60717E-02 0.9312
+    5.0000E-02   1.68215E-01 0.3181
+    1.0000E-01   3.36430E-01 0.1648
+    3.0000E-01   6.72860E-01 0.0881
+    6.0000E-01   1.23358E+00 0.0533
+    1.0000E+00   1.57001E+00 0.0443
+    1.3300E+00   1.12143E+00 0.0575
+    2.0000E+00   4.48574E-01 0.1265
+      total      5.60717E+00 0.0328
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 165 with nps = 20000000
+
+ normed average tally per history  = 5.60717E+00          unnormed average tally per history  = 5.60717E+00
+ estimated tally relative error    = 0.0328               estimated variance of the variance  = 0.0032
+ relative error from zero tallies  = 0.0181               relative error from nonzero scores  = 0.0276
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 165
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0328      yes       yes           0.0032      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 2.780E+03
+
+1tally      175        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  1.15000E+03  5.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   3.40281E-02 0.9900
+    5.0000E-02   1.02084E-01 0.4083
+    1.0000E-01   2.04168E-01 0.2115
+    3.0000E-01   4.08337E-01 0.1131
+    6.0000E-01   7.48617E-01 0.0684
+    1.0000E+00   9.52786E-01 0.0569
+    1.3300E+00   6.80561E-01 0.0738
+    2.0000E+00   2.72224E-01 0.1623
+      total      3.40281E+00 0.0422
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 175 with nps = 20000000
+
+ normed average tally per history  = 3.40281E+00          unnormed average tally per history  = 3.40281E+00
+ estimated tally relative error    = 0.0422               estimated variance of the variance  = 0.0053
+ relative error from zero tallies  = 0.0232               relative error from nonzero scores  = 0.0354
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 175
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0422      yes       yes           0.0053      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 1.687E+03
+
+1tally      185        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  1.50000E+02  7.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   8.47752E-03 0.9900
+    5.0000E-02   2.54326E-02 0.9900
+    1.0000E-01   5.08651E-02 0.9900
+    3.0000E-01   1.01730E-01 0.9900
+    6.0000E-01   1.86505E-01 0.6169
+    1.0000E+00   2.37371E-01 0.5132
+    1.3300E+00   1.69550E-01 0.6653
+    2.0000E+00   6.78202E-02 0.9900
+      total      8.47752E-01 0.3802
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 185 with nps = 20000000
+
+ normed average tally per history  = 8.47752E-01          unnormed average tally per history  = 8.47752E-01
+ estimated tally relative error    = 0.3802               estimated variance of the variance  = 0.4335
+ relative error from zero tallies  = 0.2091               relative error from nonzero scores  = 0.3193
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 185
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.3802      yes       yes           0.4335      yes         yes             constant    random      10.00
+ passed?        yes        no        yes      no               yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally does not pass 3 of the 10 statistical checks.
+
+ figure of merit = 2.076E+01
+
+1tally      195        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  3.50000E+02  7.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   1.38411E-02 0.9900
+    5.0000E-02   4.15233E-02 0.6402
+    1.0000E-01   8.30465E-02 0.3317
+    3.0000E-01   1.66093E-01 0.1774
+    6.0000E-01   3.04504E-01 0.1073
+    1.0000E+00   3.87551E-01 0.0893
+    1.3300E+00   2.76822E-01 0.1157
+    2.0000E+00   1.10729E-01 0.2545
+      total      1.38411E+00 0.0661
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 195 with nps = 20000000
+
+ normed average tally per history  = 1.38411E+00          unnormed average tally per history  = 1.38411E+00
+ estimated tally relative error    = 0.0661               estimated variance of the variance  = 0.0131
+ relative error from zero tallies  = 0.0364               relative error from nonzero scores  = 0.0555
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 195
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0661      yes       yes           0.0131      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 6.863E+02
+
+1tally      205        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  5.50000E+02  7.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   1.20743E-02 0.9900
+    5.0000E-02   3.62230E-02 0.6854
+    1.0000E-01   7.24461E-02 0.3551
+    3.0000E-01   1.44892E-01 0.1899
+    6.0000E-01   2.65636E-01 0.1149
+    1.0000E+00   3.38082E-01 0.0956
+    1.3300E+00   2.41487E-01 0.1239
+    2.0000E+00   9.65947E-02 0.2725
+      total      1.20743E+00 0.0708
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 205 with nps = 20000000
+
+ normed average tally per history  = 1.20743E+00          unnormed average tally per history  = 1.20743E+00
+ estimated tally relative error    = 0.0708               estimated variance of the variance  = 0.0150
+ relative error from zero tallies  = 0.0389               relative error from nonzero scores  = 0.0595
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 205
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0708      yes       yes           0.0150      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 5.987E+02
+
+1tally      215        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  7.50000E+02  7.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   2.56721E-02 0.9900
+    5.0000E-02   7.70163E-02 0.4701
+    1.0000E-01   1.54033E-01 0.2435
+    3.0000E-01   3.08065E-01 0.1303
+    6.0000E-01   5.64786E-01 0.0788
+    1.0000E+00   7.18819E-01 0.0655
+    1.3300E+00   5.13442E-01 0.0850
+    2.0000E+00   2.05377E-01 0.1869
+      total      2.56721E+00 0.0485
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 215 with nps = 20000000
+
+ normed average tally per history  = 2.56721E+00          unnormed average tally per history  = 2.56721E+00
+ estimated tally relative error    = 0.0485               estimated variance of the variance  = 0.0071
+ relative error from zero tallies  = 0.0267               relative error from nonzero scores  = 0.0408
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 215
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0485      yes       yes           0.0071      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 1.273E+03
+
+1tally      225        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  9.50000E+02  7.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   1.62005E-01 0.5479
+    5.0000E-02   4.86015E-01 0.1871
+    1.0000E-01   9.72031E-01 0.0969
+    3.0000E-01   1.94406E+00 0.0519
+    6.0000E-01   3.56411E+00 0.0314
+    1.0000E+00   4.53614E+00 0.0261
+    1.3300E+00   3.24010E+00 0.0338
+    2.0000E+00   1.29604E+00 0.0744
+      total      1.62005E+01 0.0193
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 225 with nps = 20000000
+
+ normed average tally per history  = 1.62005E+01          unnormed average tally per history  = 1.62005E+01
+ estimated tally relative error    = 0.0193               estimated variance of the variance  = 0.0011
+ relative error from zero tallies  = 0.0106               relative error from nonzero scores  = 0.0162
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 225
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0193      yes       yes           0.0011      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 8.033E+03
+
+1tally      235        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  1.15000E+03  7.50000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   5.48779E-02 0.9413
+    5.0000E-02   1.64634E-01 0.3215
+    1.0000E-01   3.29267E-01 0.1666
+    3.0000E-01   6.58535E-01 0.0891
+    6.0000E-01   1.20731E+00 0.0539
+    1.0000E+00   1.53658E+00 0.0448
+    1.3300E+00   1.09756E+00 0.0581
+    2.0000E+00   4.39023E-01 0.1278
+      total      5.48779E+00 0.0332
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 235 with nps = 20000000
+
+ normed average tally per history  = 5.48779E+00          unnormed average tally per history  = 5.48779E+00
+ estimated tally relative error    = 0.0332               estimated variance of the variance  = 0.0033
+ relative error from zero tallies  = 0.0183               relative error from nonzero scores  = 0.0279
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 235
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0332      yes       yes           0.0033      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 2.721E+03
+
+1tally      245        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  1.28000E+03  3.00000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   1.89676E-03 0.9900
+    5.0000E-02   5.69028E-03 0.9900
+    1.0000E-01   1.13806E-02 0.8960
+    3.0000E-01   2.27611E-02 0.4792
+    6.0000E-01   4.17287E-02 0.2898
+    1.0000E+00   5.31093E-02 0.2411
+    1.3300E+00   3.79352E-02 0.3125
+    2.0000E+00   1.51741E-02 0.6876
+      total      1.89676E-01 0.1786
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 245 with nps = 20000000
+
+ normed average tally per history  = 1.89676E-01          unnormed average tally per history  = 1.89676E-01
+ estimated tally relative error    = 0.1786               estimated variance of the variance  = 0.0957
+ relative error from zero tallies  = 0.0982               relative error from nonzero scores  = 0.1500
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 245
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.1786      yes       yes           0.0957      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 9.405E+01
+
+1tally      255        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  1.28000E+03  5.00000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   2.10295E-03 0.9900
+    5.0000E-02   6.30885E-03 0.9900
+    1.0000E-01   1.26177E-02 0.8509
+    3.0000E-01   2.52354E-02 0.4551
+    6.0000E-01   4.62649E-02 0.2752
+    1.0000E+00   5.88826E-02 0.2290
+    1.3300E+00   4.20590E-02 0.2968
+    2.0000E+00   1.68236E-02 0.6530
+      total      2.10295E-01 0.1696
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 255 with nps = 20000000
+
+ normed average tally per history  = 2.10295E-01          unnormed average tally per history  = 2.10295E-01
+ estimated tally relative error    = 0.1696               estimated variance of the variance  = 0.0863
+ relative error from zero tallies  = 0.0933               relative error from nonzero scores  = 0.1425
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 255
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.1696      yes       yes           0.0863      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 1.043E+02
+
+1tally      265        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  1.48000E+03  3.00000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   2.79807E-03 0.9900
+    5.0000E-02   8.39420E-03 0.9900
+    1.0000E-01   1.67884E-02 0.7377
+    3.0000E-01   3.35768E-02 0.3946
+    6.0000E-01   6.15574E-02 0.2386
+    1.0000E+00   7.83458E-02 0.1985
+    1.3300E+00   5.59613E-02 0.2573
+    2.0000E+00   2.23845E-02 0.5661
+      total      2.79807E-01 0.1470
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 265 with nps = 20000000
+
+ normed average tally per history  = 2.79807E-01          unnormed average tally per history  = 2.79807E-01
+ estimated tally relative error    = 0.1470               estimated variance of the variance  = 0.0649
+ relative error from zero tallies  = 0.0809               relative error from nonzero scores  = 0.1235
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 265
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.1470      yes       yes           0.0649      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 1.387E+02
+
+1tally      275        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  1.48000E+03  5.00000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   2.85495E-03 0.9900
+    5.0000E-02   8.56486E-03 0.9900
+    1.0000E-01   1.71297E-02 0.9900
+    3.0000E-01   3.42594E-02 0.9900
+    6.0000E-01   6.28090E-02 0.9900
+    1.0000E+00   7.99387E-02 0.8370
+    1.3300E+00   5.70991E-02 0.9900
+    2.0000E+00   2.28396E-02 0.9900
+      total      2.85495E-01 0.6200
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 275 with nps = 20000000
+
+ normed average tally per history  = 2.85495E-01          unnormed average tally per history  = 2.85495E-01
+ estimated tally relative error    = 0.6200               estimated variance of the variance  = 0.9000
+ relative error from zero tallies  = 0.3410               relative error from nonzero scores  = 0.5208
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 275
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.6200      yes       yes           0.9000      yes         yes             constant    random      10.00
+ passed?        yes        no        yes      no               yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally does not pass 3 of the 10 statistical checks.
+
+ figure of merit = 7.804E+00
+
+1tally      285        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  4.50000E+02  6.00000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   1.66623E-02 0.9900
+    5.0000E-02   4.99868E-02 0.5835
+    1.0000E-01   9.99735E-02 0.3023
+    3.0000E-01   1.99947E-01 0.1617
+    6.0000E-01   3.66570E-01 0.0978
+    1.0000E+00   4.66543E-01 0.0813
+    1.3300E+00   3.33245E-01 0.1055
+    2.0000E+00   1.33298E-01 0.2320
+      total      1.66623E+00 0.0603
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 285 with nps = 20000000
+
+ normed average tally per history  = 1.66623E+00          unnormed average tally per history  = 1.66623E+00
+ estimated tally relative error    = 0.0603               estimated variance of the variance  = 0.0109
+ relative error from zero tallies  = 0.0331               relative error from nonzero scores  = 0.0506
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 285
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0603      yes       yes           0.0109      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 8.262E+02
+
+1tally      295        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  7.00000E+02  3.30000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   2.55280E-02 0.9900
+    5.0000E-02   7.65840E-02 0.4714
+    1.0000E-01   1.53168E-01 0.2442
+    3.0000E-01   3.06336E-01 0.1306
+    6.0000E-01   5.61616E-01 0.0790
+    1.0000E+00   7.14784E-01 0.0657
+    1.3300E+00   5.10560E-01 0.0852
+    2.0000E+00   2.04224E-01 0.1874
+      total      2.55280E+00 0.0487
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 295 with nps = 20000000
+
+ normed average tally per history  = 2.55280E+00          unnormed average tally per history  = 2.55280E+00
+ estimated tally relative error    = 0.0487               estimated variance of the variance  = 0.0071
+ relative error from zero tallies  = 0.0268               relative error from nonzero scores  = 0.0409
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 295
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0487      yes       yes           0.0071      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 1.266E+03
+
+1tally      305        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  9.50000E+02  6.00000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   9.37636E-02 0.7201
+    5.0000E-02   2.81291E-01 0.2460
+    1.0000E-01   5.62582E-01 0.1274
+    3.0000E-01   1.12516E+00 0.0682
+    6.0000E-01   2.06280E+00 0.0412
+    1.0000E+00   2.62538E+00 0.0343
+    1.3300E+00   1.87527E+00 0.0445
+    2.0000E+00   7.50109E-01 0.0978
+      total      9.37636E+00 0.0254
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 305 with nps = 20000000
+
+ normed average tally per history  = 9.37636E+00          unnormed average tally per history  = 9.37636E+00
+ estimated tally relative error    = 0.0254               estimated variance of the variance  = 0.0019
+ relative error from zero tallies  = 0.0140               relative error from nonzero scores  = 0.0213
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 305
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0254      yes       yes           0.0019      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 4.649E+03
+
+1tally      315        nps =    20000000
++                                   phase 2 / hypothese nominal                                 
+           tally type 5    particle flux at a point detector.
+           particle(s): photons
+           this tally is modified by dose function DF1 (uSv/h per photon).
+
+           detector located at x,y,z =  1.00000E+03  6.00000E+02  1.00000E+02
+
+           energy
+    2.0000E-02   1.08784E-01 0.6686
+    5.0000E-02   3.26353E-01 0.2284
+    1.0000E-01   6.52706E-01 0.1183
+    3.0000E-01   1.30541E+00 0.0633
+    6.0000E-01   2.39326E+00 0.0383
+    1.0000E+00   3.04596E+00 0.0318
+    1.3300E+00   2.17569E+00 0.0413
+    2.0000E+00   8.70275E-01 0.0908
+      total      1.08784E+01 0.0236
+
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally 315 with nps = 20000000
+
+ normed average tally per history  = 1.08784E+01          unnormed average tally per history  = 1.08784E+01
+ estimated tally relative error    = 0.0236               estimated variance of the variance  = 0.0017
+ relative error from zero tallies  = 0.0130               relative error from nonzero scores  = 0.0198
+
+ number of nonzero history tallies =      1240000          efficiency for the nonzero tallies  = 0.0620
+
+ results of 10 statistical checks for the estimated answer for the tally fluctuation chart (tfc) bin of tally 315
+
+ tfc bin     --mean--      ---------relative error---------      ----variance of the variance----      --figure of merit--     -pdf-
+ behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
+ desired      random       <0.10      yes      1/sqrt(nps)      <0.10      yes        1/nps           constant    random      >3.00
+ observed     random      0.0236      yes       yes           0.0017      yes         yes             constant    random      10.00
+ passed?        yes        yes       yes      yes              yes      yes         yes                yes        yes        yes
+
+ ===================================================================================================================================
+
+ the tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
+
+ figure of merit = 5.394E+03
+
+
+ computer time = 94.04 minutes
+
+ mcrun  is done

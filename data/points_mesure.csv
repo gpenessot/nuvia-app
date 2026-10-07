@@ -1,0 +1,33 @@
+point,x_cm,y_cm,z_cm,local,description
+P01,150.0,150.0,100.0,Casemate C2,Maillage systématique
+P02,350.0,150.0,100.0,Casemate C2,Maillage systématique
+P03,550.0,150.0,100.0,Casemate C2,Maillage systématique
+P04,750.0,150.0,100.0,Casemate C2,Maillage systématique
+P05,950.0,150.0,100.0,Casemate C2,Maillage systématique
+P06,1150.0,150.0,100.0,Casemate C2,Maillage systématique
+P07,150.0,350.0,100.0,Casemate C2,Maillage systématique
+P08,350.0,350.0,100.0,Casemate C2,Maillage systématique
+P09,550.0,350.0,100.0,Casemate C2,Maillage systématique
+P10,750.0,350.0,100.0,Casemate C2,Maillage systématique
+P11,950.0,350.0,100.0,Casemate C2,Maillage systématique
+P12,1150.0,350.0,100.0,Casemate C2,Maillage systématique
+P13,150.0,550.0,100.0,Casemate C2,Maillage systématique
+P14,350.0,550.0,100.0,Casemate C2,Maillage systématique
+P15,550.0,550.0,100.0,Casemate C2,Maillage systématique
+P16,750.0,550.0,100.0,Casemate C2,Maillage systématique
+P17,950.0,550.0,100.0,Casemate C2,Maillage systématique
+P18,1150.0,550.0,100.0,Casemate C2,Maillage systématique
+P19,150.0,750.0,100.0,Casemate C2,Maillage systématique
+P20,350.0,750.0,100.0,Casemate C2,Maillage systématique
+P21,550.0,750.0,100.0,Casemate C2,Maillage systématique
+P22,750.0,750.0,100.0,Casemate C2,Maillage systématique
+P23,950.0,750.0,100.0,Casemate C2,Maillage systématique
+P24,1150.0,750.0,100.0,Casemate C2,Maillage systématique
+P25,1280.0,300.0,100.0,Sas d'accès,Maillage systématique
+P26,1280.0,500.0,100.0,Sas d'accès,Maillage systématique
+P27,1480.0,300.0,100.0,Sas d'accès,Maillage systématique
+P28,1480.0,500.0,100.0,Sas d'accès,Maillage systématique
+P29,450.0,600.0,100.0,Casemate C2,Poste découpe cuve V1
+P30,700.0,330.0,100.0,Casemate C2,Poste dépose tuyauterie T1
+P31,950.0,600.0,100.0,Casemate C2,Poste boîte à gants
+P32,1000.0,600.0,100.0,Casemate C2,Poste reprise puisard
